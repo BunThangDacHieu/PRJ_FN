@@ -1,0 +1,58 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 25, 2023, 12:02:07 AM
+    Author     : DELL
+*/
+body{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    }
+
+
+
+.registor {
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f2f2f2;  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.registor form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registor p {
+  margin-bottom: 10px;
+}
+
+.registor input[type="text"],
+.registor input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.registor input[type="submit"] {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.registor input[type="submit"]:hover {
+  background-color: #45a049;
+}

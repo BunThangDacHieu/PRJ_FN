@@ -1,0 +1,81 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 6, 2023, 4:28:16 PM
+    Author     : DELL
+*/
+table {
+                border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .cart-heading {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .cart-image {
+            max-width: 100px;
+            max-height: 100px;
+        }
+         .delete-icon {
+            color: red;
+            cursor: pointer;
+        }
+         .delete-icon:hover {
+            color: black;
+           
+        }
+        .Submit {
+  background-color: #4CAF50; /* Màu nền */
+  border: none; /* Xóa đường viền */
+  color: white; /* Màu chữ */
+  padding: 10px 10px; /* Kích thước đệm */
+  text-align: center; /* Căn giữa chữ */
+  text-decoration: none; /* Xóa gạch chân */
+  display: inline-block; /* Hiển thị là một khối inline */
+  font-size: 20px; /* Cỡ chữ */
+  margin: 4px 2px; /* Khoảng cách giữa nút */
+  cursor: pointer; /* Hiển thị con trỏ khi di chuột qua nút */
+  border-radius: 4px; /* Bo góc nút */
+}
+
+.Submit:hover {
+  background-color: #45a049; /* Màu nền khi di chuột qua */
+}
+
+.Submit:active {
+  background-color: #3e8e41; /* Màu nền khi nút được nhấn */
+}.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 50px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.quantity-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
